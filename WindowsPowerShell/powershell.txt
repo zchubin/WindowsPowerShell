@@ -1,0 +1,45 @@
+C:\Users\<++>\OneDrive\文档\WindowsPowerShell
+
+1. 目标(T)： %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit "chcp 65001"
+
+2. 目标(T)： %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit "chcp 437"
+
+powershell
+
+    背景色（1，36，86）
+
+    字体色（238，237，240）
+
+    弹出文字（0，128，128）
+
+    弹出背景色（255，255，255）
+
+zhong
+
+   背景色（45, 52, 54)
+
+   字体色（0, 206, 201)
+
+  弹出文字（0, 184, 148)
+
+  弹出背景色（99, 110, 114)
+
+Atom
+
+    背景色（40，44，52）
+
+    字体色（126，165，167）
+
+    弹出文字（229，243，255）
+
+    弹出背景色（62，68，81）
+
+Sublime
+
+    背景色（0，48，62）
+
+    字体色（248，248，242）
+
+    弹出文字（236，0，124）
+
+    弹出背景色（0，48，62）
