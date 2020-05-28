@@ -1,10 +1,14 @@
-C:\Users\<++>\OneDrive\文档\WindowsPowerShell
+## 增加Power shell可选字体：
+1. 找到 Windows Powershell右键打开文件夹所在位置
+2. 再右键--属性在以下位置尝试填入：
 
-1. 目标(T)： %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit "chcp 65001"
+* 目标(T)： %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit "chcp 65001"
 
-2. 目标(T)： %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit "chcp 437"
+* 目标(T)： %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit "chcp 437"
 
-powershell
+## powershell 配色
+
+默认
 
     背景色（1，36，86）
 

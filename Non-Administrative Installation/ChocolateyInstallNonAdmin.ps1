@@ -1,6 +1,6 @@
 # Set directory for installation - Chocolatey does not lock
 # down the directory if not the default
-$InstallDir='D:\chocoportable'
+$InstallDir='C:\ProgramData\chocoportable'
 $env:ChocolateyInstall="$InstallDir"
 
 # If your PowerShell Execution policy is restrictive, you may
