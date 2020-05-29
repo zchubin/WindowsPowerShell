@@ -7,7 +7,7 @@
 
   以下是过程... ...
 
-![Windows-Terminal](./Screenshot/Theme.png)
+![Windows-Terminal](./Screenshot/Theme.jpg)
 
 建议了解以下内容：
 * [PowerShell](https://docs.microsoft.com/zh-cn/powershell/scripting/overview?view=powershell-7)
@@ -22,7 +22,7 @@ Option: 本仓库"PowerShell.exe"提供了一些 powershll 一些配色，如果
 3. 打开 windows Terminal, 按"Ctrl+,", 用复制的内容替换打开的内容
 * 完成后你会得到如下效果：
 <div>
-    <img src="./Screenshot/WindowsTerminal.png" alt="demo" style="width: 100%;height: 100%;border-radius: 5px;">
+    <img src="./Screenshot/WindowsTerminal.jpg" alt="demo" style="width: 100%;height: 100%;border-radius: 5px;">
 </div>
 
 1. {W 警告}: 此'settings.json'适用于`16:10`的屏幕显示，适当修改显示大小。
@@ -54,7 +54,7 @@ Install-Module oh-my-posh -Scope CurrentUser
   ```shell
   Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
   ```
-![git-posh 安装](./Screenshot/git-posh.png)
+![git-posh 安装](./Screenshot/git-posh.jpg)
 
 2. 安装ConEmu
 ```shell
@@ -126,7 +126,7 @@ _____
 > Restricted 执行策略不允许任何脚本运行。
 > **AllSigned 和 RemoteSigned 执行策略可防止 Windows PowerShell 运行没有数字签名的脚本。**
 > 如何运行所选未签名脚本（即使在执行策略为 RemoteSigned 的情况下），
-> 有关 Windows PowerShell 执行策略的详细信息，请参阅 (about_Execution_Policy)[https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7]。
+> 有关 Windows PowerShell 执行策略的详细信息，请参阅 [about_Execution_Policy][https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7]。
 >
 > * 想了解计算机上的现用执行策略，打开 PowerShell 然后输入 `get-executionpolicy`
 > * **以管理员身份打开 PowerShell **输入 `set-executionpolicy remotesigned`
