@@ -6,8 +6,9 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
+//---请不要复制以下内容，每台机器的guid都不一样！！！！-----------------------------------------------------------
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-
+//-----------------------------------------------------------------------------------------
     // 您可以在此处添加更多全局应用程序设置。
     // 要了解有关全局设置的更多信息，请访问 https://aka.ms/terminal-global-settings
 
@@ -35,16 +36,17 @@
             "name" : "Powershell",
             "source" : "Windows.Terminal.PowershellCore",
             // 主题
-            "colorScheme": "Campbell",
+            "colorScheme": "Zhong",
 
             "fontFace" : "GoMono Nerd Font Mono",
             "fontSize" : 16,
 
             "cursorColor" : "#FFFFFD",
             // 半透明
-            "acrylicOpacity" : 0.2,
+            "acrylicOpacity" : 0.7,
             "useAcrylic" : true
         },
+//---请不要复制以下内容，每台机器的guid都不一样！！！！-----------------------------------------------------------
         "list":
         [
             {
@@ -68,6 +70,7 @@
                 "source": "Windows.Terminal.Azure"
             }
         ]
+//-----------------------------------------------------------------------------------------
     },
 
     // 将自定义配色方案添加到此数组。
@@ -75,7 +78,7 @@
     "schemes": [
       {
 
-        "name" : "Campbell",
+        "name" : "Zhong",
 
         "cursorColor": "#FFFFFF",
         "selectionBackground": "#000000",
@@ -120,6 +123,36 @@
         // - “ split”：“ auto”使此窗格向提供最大表面积的方向打开。
         // - “ splitMode”：“ duplicate”使新窗格使用焦点窗格的配置文件。
         // 要了解有关窗格的更多信息，请访问 https://aka.ms/terminal-panes
-        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
+
+         // 分屏
+        { "command": { "action": "splitPane", "split": "vertical" }, "keys": "alt+shift+plus" },
+        { "command": { "action": "splitPane", "split": "horizontal" }, "keys": "alt+shift+-" },
+        { "command": { "action": "splitPane", "split": "auto" }, "keys": "alt+shift+|" },
+        // 分屏聚焦
+        { "command": { "action": "moveFocus", "direction": "down" }, "keys": "alt+down" },
+        { "command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+left" },
+        { "command": { "action": "moveFocus", "direction": "right" }, "keys": "alt+right" },
+        { "command": { "action": "moveFocus", "direction": "up" }, "keys": "alt+up" },
+
+        { "command": { "action": "moveFocus", "direction": "down" }, "keys": "alt+j" },
+        { "command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+h" },
+        { "command": { "action": "moveFocus", "direction": "right" }, "keys": "alt+l" },
+        { "command": { "action": "moveFocus", "direction": "up" }, "keys": "alt+k" },
+        // 调整分屏大小
+       { "command": { "action": "resizePane", "direction": "down" }, "keys": "alt+shift+down" },
+       { "command": { "action": "resizePane", "direction": "left" }, "keys": "alt+shift+left" },
+       { "command": { "action": "resizePane", "direction": "right" }, "keys": "alt+shift+right" },
+       { "command": { "action": "resizePane", "direction": "up" }, "keys": "alt+shift+up" },
+
+       { "command": { "action": "resizePane", "direction": "down" }, "keys": "alt+shift+j" },
+       { "command": { "action": "resizePane", "direction": "left" }, "keys": "alt+shift+h" },
+       { "command": { "action": "resizePane", "direction": "right" }, "keys": "alt+shift+l" },
+       { "command": { "action": "resizePane", "direction": "up" }, "keys": "alt+shift+k" },
+        // 关闭窗口
+        { "command": "closePane", "keys": "ctrl+shift+w" },
+        { "command": "closePane", "keys": "f4" },
+        // 复制窗格
+       { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
     ]
 }
