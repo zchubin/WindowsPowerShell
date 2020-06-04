@@ -25,8 +25,8 @@ Option: 本仓库"PowerShell.exe"提供了一些 powershll 一些配色，如果
     <img src="./Screenshot/WindowsTerminal.jpg" alt="demo" style="width: 100%;height: 100%;border-radius: 5px;">
 </div>
 
-1. {W 警告}: 此'settings.json'适用于`16:10`的屏幕显示，适当修改显示大小。
-2. {X 错误}: 你可能会遇到缺失字体，你可从 [Font](###\ Font) 中找到，或者修改你电脑上有的字体。
+1. {W 警告}: 此'settings.json'适用于`16:10`的屏幕显示，更具情况适当修改显示大小。
+2. {X 错误}: 你可能会遇到缺失字体，你可从 [Font](###Font) 中找到，或者修改你电脑上有的字体。
 
 ## 完整配置
 ### Font
